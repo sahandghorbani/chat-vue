@@ -7,4 +7,8 @@ console.log("dev changed");
 console.log("dev debugged feature");
 console.log("dev released feature");
 
+
+
+console.log('change number 1');
+
 createApp(App).use(router).mount("#app");
