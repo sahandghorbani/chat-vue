@@ -8,6 +8,8 @@ import Dialog from '@mui/material/Dialog'
 console.log("dev changed");
 console.log("dev debugged feature");
 console.log("dev released feature");
+console.log('feat-3');
+
 
 createApp(App).use(router).mount("#app");
 cxz;
