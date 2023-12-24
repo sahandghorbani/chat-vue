@@ -4,6 +4,7 @@ import { projectFiresore } from "../firebase/config";
 const getCollection = (collection) => {
   const documents = ref(null);
   const error = ref(null);
+  const newFeat = 'newFeat'
 
   let collectionRef = projectFiresore
     .collection(collection)
