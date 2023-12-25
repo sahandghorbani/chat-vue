@@ -11,4 +11,10 @@ console.log("dev debugged feature");
 console.log("dev released feature");
 >>>>>>> restored
 
+
+
+console.log('change number 1');
+console.log('change number 2');
+console.log('change number 3');
+
 createApp(App).use(router).mount("#app");
