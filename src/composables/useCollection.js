@@ -3,6 +3,7 @@ import { projectFiresore } from '../firebase/config'
 
 const useCollection = (collection) => {
     let error = ref(null)
+    const newFeat = 'newFeat-3'
 
     const addDoc = async(doc) => {
         error.value = null
